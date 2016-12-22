@@ -1,6 +1,9 @@
 # Original Prusa i3 MK2 Helpful Info
 These are mostly a collection of notes for myself about my Original Prusa i3 MK2 3D Printer, but maybe you'll find them useful.
 
+## Helpful Resources
+https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks/wiki
+
 ## Zip Ties
 Major :key:
 
