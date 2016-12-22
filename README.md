@@ -23,7 +23,10 @@ Must PID tune after swapping nozzles. An overview of PID Tuning can be found [he
 ## PID Autotune w/ Marlin Firmware & OctoPrint
 Thomas Sanladerer has a great tutorial [here](https://www.youtube.com/watch?v=APzJfYAgFkQ).
 
-# Slic3r
+# Slic3r (PRUSA EDITION)
+## First Run (macOS)
+Upon first run of Slic3r (PRUSA EDITION) you'll be prompted with a wizard to setup your printer. Click cancel. You'll now want to load the config bundle by going to `File > Load Config Bundle` and selecting the correct `.ini` file that was included with the Prusa Drivers.
+
 ## Configuration files
 I found myself wanting to delete some of the preset data in Slic3r. This is how you find that stuff ;).
 
