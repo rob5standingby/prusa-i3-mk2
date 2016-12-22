@@ -24,4 +24,8 @@ Must PID tune after swapping nozzles. An overview of PID Tuning can be found [he
 Thomas Sanladerer has a great tutorial [here](https://www.youtube.com/watch?v=APzJfYAgFkQ).
 
 # Slic3r
-- 
+## Configuration files
+On Mac OSX, they're stored in the directory: `/Users/<USERNAME>/Library/Application Support/Slic3r`
+On Windows, they're stored in the directory: `C:\Users\Public\Documents\Prusa3D`.
+
+I found myself wanting to wipe these out a few times and start over with new config bundles, so I thought this was handy to place here.
