@@ -3,6 +3,7 @@ These are mostly a collection of notes for myself about my Original Prusa i3 MK2
 
 ## Helpful Resources
 https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks/wiki
+https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks
 
 ## Zip Ties
 Major :key:
