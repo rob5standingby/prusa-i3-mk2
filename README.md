@@ -25,7 +25,10 @@ Thomas Sanladerer has a great tutorial [here](https://www.youtube.com/watch?v=AP
 
 # Slic3r
 ## Configuration files
-On Mac OSX, they're stored in the directory: `/Users/<USERNAME>/Library/Application Support/Slic3r`
-On Windows, they're stored in the directory: `C:\Users\Public\Documents\Prusa3D`.
+I found myself wanting to delete some of the preset data in Slic3r. This is how you find that stuff ;).
 
-I found myself wanting to wipe these out a few times and start over with new config bundles, so I thought this was handy to place here.
+### macOS
+Running slic3r from the terminal using the command: `/Applications/Slic3r.app/Contents/MacOS/slic3r --debug` will output the directory where your data is stored. 
+
+### Windows
+They're typically stored in the directory: `C:\Users\Public\Documents\Prusa3D`.
