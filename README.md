@@ -4,6 +4,7 @@ These are mostly a collection of notes for myself about my Original Prusa i3 MK2
 ## Helpful Resources
 https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks/wiki
 https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks
+http://www.prusa3d.com/material-guides/ (Tips for printing on the MK2 with various materials)
 
 ## Zip Ties
 Major :key:
@@ -39,3 +40,18 @@ Running slic3r from the terminal using the command: `/Applications/Slic3r.app/Co
 
 ### Windows
 They're typically stored in the directory: `C:\Users\Public\Documents\Prusa3D`.
+
+## OctoPi/OctoPrint
+If you setup OctoPrint to run w/ the Prusa MK2, create a printer profile and use the following settings:
+- Heated Bed: [y]
+- Print Volume:
+  - Width (x): 250mm
+  - Depth (y): 210mm
+  - Height (z): 200mm
+- Custom bounding box: [y]
+  - X Coordinates: Min: 0, Max: 250
+  - Y Coordinates: Min: -4, Max: 210
+  - Z Coordinates: Min: 0, Max 200
+  
+The "Custom Bounding Box" is for the 'purge strip' that the printer prints out.
+
