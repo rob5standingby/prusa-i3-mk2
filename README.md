@@ -35,13 +35,13 @@ If you're running OctoPrint, you can run the "Autotune" in Marlin from the conso
 Upon first run of Slic3r (PRUSA EDITION) you'll be prompted with a wizard to setup your printer. Click cancel. You'll now want to load the config bundle by going to `File > Load Config Bundle` and selecting the correct `.ini` file that was included with the Prusa Drivers.
 
 ### Configuration files
-I found myself wanting to delete the preset data in Slic3r after importing tons of config bundles that I didn't really want. This is how you find that stuff ;).
+I found myself wanting to delete the preset data in Slic3r after importing tons of config bundles that I didn't really want, and wanting to re-import all of the config data again after making modifications to the .ini files. This is how you find that stuff ;).
 
 ### macOS
 Running slic3r from the terminal using the command: `/Applications/Slic3r.app/Contents/MacOS/slic3r --debug` will output the directory where your data is stored. 
 
 ### Windows
-They're typically stored in the directory: `C:\Users\Public\Documents\Prusa3D`.
+Check either `C:\Users\Public\Documents\Prusa3D` or `C:\Users\Public\Documents\Prusa3D\Slic3r settings MK2\printer`
 
 ## OctoPi/OctoPrint
 If you setup OctoPrint to run w/ the Prusa MK2, create a printer profile and use the following settings:
