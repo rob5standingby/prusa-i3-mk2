@@ -4,14 +4,14 @@
 This repository serves as my personal notebook for assembly, calibration, operation, maintenance and improvement of the Original Prusa i3 MK2. I hope you also find it useful.
 
 ### Table of Contents
-- [I. Assembly](#assembly)
-- [II. Calibration](#calibration)
-- [III. Printing](#printing)
-- [IV. Maintenance](#maintenance)
-- [V. Troubleshooting](#troubleshooting)
-- [VI. Software](#software)
-- [VII. Useful GCode](#useful-gcode)
-- [VIII. Additional Resources](#additional-resources)
+- [I. Assembly](#i-assembly)
+- [II. Calibration](#ii-calibration)
+- [III. Printing](#iii-printing)
+- [IV. Maintenance](#iv-maintenance)
+- [V. Troubleshooting](#v-troubleshooting)
+- [VI. Software](#vi-software)
+- [VII. Useful GCode](#vii-useful-gcode)
+- [VIII. Additional Resources](#viii-additional-resources)
 
 ## I. Assembly
 The best resource for assembly is the [official assembly instructions](http://manual.prusa3d.com). However, before assembly, I recommend that you read this small section.
