@@ -22,9 +22,7 @@ The Original Prusa i3 MK2 kit includes all of the tools necessary to assemble th
 | Name         | Purpose |
 | :----------- | :------ |
 | Calipers (8-inch or greater) | A precise machine requires precise assembly. Large calipers will help you to make sure everything is properly positioned during assembly. |
-| Loctite (Blue) | The PINDA calibration probe requires 2 nuts to fasten it to the hotend assembly. It is important that this probe remains in place. After you've assembled the printer and it has been running successfully for a few days, you should apply a small drop of blue Loctite. |
-
-*TODO* Add a link to the blue loctite
+| [Loctite (Blue)](https://www.amazon.com/Loctite-Blue-Threadlocker-6-Milliliter-209728/dp/B000I1RSNS) | The PINDA calibration probe requires 2 nuts to fasten it to the hotend assembly. It is important that this probe remains in place. After you've assembled the printer and it has been running successfully for a few days, you should apply a small drop of blue Loctite. |
 
 ### Extra Printed Parts
 There are a few parts not included from Prusa that you should print. These parts will aid in your assembly of the printer. Descriptions, sources, material recommendations, and printing settings can be found in each entry in the table below. If you don't already have a 3D Printer, you can find a local person to print these for you. My recommended way of locating someone local is to use the [3D Hubs](http://www.3dhubs.com/) service.
@@ -55,7 +53,7 @@ Once you have passed the machine's self-test, calibrate the height of the PINDA 
 Once you have adjusted the height of the PINDA probe using the calibration tool above, you're ready to perform the XYZ calibration. **IMPORTANT:** The full XYZ calibration process can take approximately 10 minutes. It is VERY important that you babysit the printer and do not leave it unattended during this process. Follow the Prusa instructions precisely. Use a sheet of paper on the print surface while running the calibration. If the nozzle drags the piece of paper and causes it to move, IMMEDIATELY turn off the printer. If you have properly set the height of the PINDA probe, you should have absolutely no issues with this process. Learn from my mistakes! During assembly of my first printer, I had incorrectly set the height of the PINDA probe. I clicked "XYZ calibration" and walked away, and came back to the printer digging itself into the print bed, causing irreversible damage to the PEI surface.
 
 ### Calibration V2 (Live-Z Adjustment)
-Hopefully, the XYZ calibration succeeds first go, anad you're nearly ready to print!! The next step in the calibration process is fine-tuning the height of your hotend nozzle in relation to the print surface. The feature of the Original Prusa i3 MK2 that you'll be utilizing for this adjustment is called "Live-Z Adjustment." This setting persists once you've set it, but you will find yourself using this feature occasionally to make fine-tuning tweaks.
+Hopefully, the XYZ calibration succeeds first go, anad you're nearly ready to print!! The next step in the calibration process is fine-tuning the height of your hotend nozzle in relation to the print surface. The feature of the Original Prusa i3 MK2 that you'll be utilizing for this adjustment is called "Live-Z Adjustment." This setting persists once you've set it, but you will find yourself using this feature occasionally to make fine-tuning tweaks after changing material types, or after you've changed nozzles.
 
 ### Z-Calibration
 The Z-Axis can be calibrated independently of the entire XYZ process. This process is much faster. If you ever pick up the printer and move it, or manually adjust the Z-height of the printer by rotating the threaded rods on the Z-Axis, you'll need to re-run the Z-Calibration before printing again.
@@ -63,14 +61,33 @@ The Z-Axis can be calibrated independently of the entire XYZ process. This proce
 ## III. Printing
 > A watched print never fails. -My Grandma
 
-One of the most critical parts of having a successful print is how the first layer turns out.
+### Before You Print
+Follow this general checklist before you print to ensure a successful print.
 
-*TODO* Fill this out...
+- [ ] **If the printer has been moved since last print**, re-run the "Z Calibration" from the Prusa LCD while the printer is still cold.
+- [ ] Hotend/Nozzle area is free of filament "boogers" or "ooze".
+- [ ] Heated Bed is properly cleaned. Isopropyl Alcohol and a Paper Towel is a good cleaning method.
+- [ ] Verify there is nothing obstructing the printer in the X, Y, or Z axes.
+
+### When You Print
+**The First Layer: Adhesion and Proper Live Z-Height**
+Having proper adhesion of your first layer is critical to having a successful print. You want the first layer to adhere enough to the print bed so that the object will stay in place during printing, but not stick so well that you cannot remove it later on. Different materials require more or less "squish" of the filament to the print surface. Watch the printer very carefully during the first layer. If you see an air gap between "lines" of filament, your nozzle may not be close enough to the print bed. You can adjust the height of the nozzle during printing using the "Live Z Adjust" feature of the printer.
+
+Keep an eye on the printer during the first layer. If things start to peel up during this time, you likely have a setting wrong, and you should stop the print and try again.
+
+### After Your Print Finishes
+**Removing your object from the print bed**
+**IMPORTANT** The PEI sheet can be damaged if you do not take proper precautions when removing prints from the printer. Follow these steps and you won't risk causing damage to the print surface.
+
+- Wait for the nozzle and the heated bed to cool to room temperature.
+- Gently slide your 3D Printer Spatula tool under a corner of the print. Try to avoid any "prying" action, as this could cause damage to the print bed. Keep the tool as parallel to the print surface as possible. 
+- Slowly work the spatula around various sides of the print.
+- If you're having trouble finding a good 'corner' to start with, you may want to try using a piece of dental floss.
+- After removing a print, you may notice an outline of your printed object in the PEI sheet, or some small bubbles. This is completely normal and will go away with time.
+
 
 ## IV. Maintenance
-*TODO* Fill this out...
-### Before Each Printing
-### Every Spool of Filament
+The following maintenance should be performed after printing with approximately one spool (or 1KG) of filament.
 
 ## V. Troubleshooting
 *TODO* Fill this out...
