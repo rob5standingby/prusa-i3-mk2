@@ -4,16 +4,16 @@
 This repository serves as my personal notebook for assembly, calibration, operation, maintenance and improvement of the Original Prusa i3 MK2. I hope you also find it useful.
 
 ### Table of Contents
-- Assembly
-- Calibration
-- Printing
-- Maintenance
-- Troubleshooting
-- Software (Modeling, Slicing, Remote Printing via OctoPrint)
-- GCode
-- Additional Resources
+- [I. Assembly](#assembly)
+- [II. Calibration](#calibration)
+- [III. Printing](#printing)
+- [IV. Maintenance](#maintenance)
+- [V. Troubleshooting](#troubleshooting)
+- [VI. Software](#software)
+- [VII. Useful GCode](#useful-gcode)
+- [VIII. Additional Resources](#additional-resources)
 
-## Assembly
+## I. Assembly
 The best resource for assembly is the [official assembly instructions](http://manual.prusa3d.com). However, before assembly, I recommend that you read this small section.
 
 ### Tools
@@ -37,7 +37,7 @@ There are a few parts not included from Prusa that you should print. These parts
 | P.I.N.D.A Calibration Tool | Arguably one of the most frustrating parts of getting the Original Prusa i3 MK2 calibrated properly is getting the Z-Height of the PINDA Calibration Tool Correct. | Any | 2 perimeters, 20% infill, 4/4 Top/Bottom Layers | [STL] | [NERDVille's Thingiverse](www.thingiverse.com/thing:1977997) |
 | [name] | [purpose] | [material] | [settings] | [STL] | [source] |
 
-## Calibration
+## II. Calibration
 **Please read this section in its entirety before ever turning the Original Prusa i3 MK2.** It is **imperative** that you follow these instructions and the Prusa Manuals in order to prevent damage of your printer. The printing manual included with the Original Prusa i3 MK2 has a very handy diagram on the calibration flow of the machine. My intention with this section is to strongly reinforce some instructions that are in the Prusa Manual.
 
 ### PINDA Probe Height Adjustment
@@ -60,28 +60,28 @@ Hopefully, the XYZ calibration succeeds first go, anad you're nearly ready to pr
 ### Z-Calibration
 The Z-Axis can be calibrated independently of the entire XYZ process. This process is much faster. If you ever pick up the printer and move it, or manually adjust the Z-height of the printer by rotating the threaded rods on the Z-Axis, you'll need to re-run the Z-Calibration before printing again.
 
-## Printing
+## III. Printing
 > A watched print never fails. -My Grandma
 
 One of the most critical parts of having a successful print is how the first layer turns out.
 
 *TODO* Fill this out...
 
-## Maintenance
+## IV. Maintenance
 *TODO* Fill this out...
 ### Before Each Printing
 ### Every Spool of Filament
 
-## Troubleshooting
+## V. Troubleshooting
 *TODO* Fill this out...
 
-## Software
+## VI. Software
 *TODO* Fill this out...
 
-## GCodes
+## VII. Useful GCode
 *TODO* Fill this out...
 
-## Additional Resources
+## VIII. Additional Resources
 http://www.prusa3d.com/material-guides/ (Tips for printing on the MK2 with various materials)
 https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks/wiki
 https://github.com/PrusaMK2Users/MK2_Tips_and_Tricks
