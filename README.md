@@ -87,7 +87,17 @@ Keep an eye on the printer during the first layer. If things start to peel up du
 
 
 ## IV. Maintenance
+### After Every Spool of Filament
 The following maintenance should be performed after printing with approximately one spool (or 1KG) of filament.
+
+### As Needed
+**PEI Sheet**
+The heated bed is covered with a sheet of PEI (sometimes called UItem). This sheet will eventually wear out and will need to be replaced. Before replacing, consider "refreshing" this sheet and smoothing it out with a drop of dish soap, a small amount of water, and a green scrub pad.
+
+If your sheet has holes or too much wear, you may just need to replace it. You can order this sheet diretcly from Prusa, or find it in the US from CS Hyde Co. The exact size of the sheet you need is 235mm by 254mm. Here's a [direct link](http://catalog.cshyde.com/item/3d-printing-materials/ultem-pei/36-5a-3d-8-25-10) to this item from CS Hyde Co. If you do order from CS Hyde Co, you must specify in the ordering notes, "ADHESIVE APPLIED TO GLOSSY SIDE". These PEI sheets have both a glossy and a matte side. By default, CS Hyde Co will apply adhesive to the matte side of the sheet, leaving the glossy side exposed. You should ensure they apply the adhesive to the glossy side, which will leave the matte side for your printing surface.
+
+Follow the [instructions from Prusa](http://manual.prusa3d.com/Guide/Replacing+the+PEI+sheet/133) for changing the PEI sheet. 
+
 
 ## V. Troubleshooting
 *TODO* Fill this out...
