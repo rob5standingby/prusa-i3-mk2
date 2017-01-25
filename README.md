@@ -65,7 +65,9 @@ The Z-Axis can be calibrated independently of the entire XYZ process. This proce
 Follow this general checklist before you print to ensure a successful print.
 
 - [ ] **If the printer has been moved since last print**, re-run the "Z Calibration" from the Prusa LCD while the printer is still cold.
-- [ ] Hotend/Nozzle area is free of filament "boogers" or "ooze".
+- [ ] Hotend/Nozzle area is free of filament "boogers" or "ooze". When the nozzle is hot, you can use a small wire brush, or a damp towel to gently clean the nozzle.
+- [ ] Make sure there are no bits of plastic on any of the belts.
+- [ ] Verify the installation of the wiring going to the hotend is intact. Nothing should be frayed or loose.
 - [ ] Heated Bed is properly cleaned. Isopropyl Alcohol and a Paper Towel is a good cleaning method.
 - [ ] Verify there is nothing obstructing the printer in the X, Y, or Z axes.
 
@@ -87,14 +89,18 @@ Keep an eye on the printer during the first layer. If things start to peel up du
 
 
 ## IV. Maintenance
+A lot of this information I have learned from Thomas Sanladerer. You can find his channel on YouTube [here](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A).
+
 ### After Every Spool of Filament
 The following maintenance should be performed after printing with approximately one spool (or 1KG) of filament.
 
-- Tighten the nuts on the pullies.
-- Ensure belts are properly tensioned.
-- Clean and lubricate the smooth rods. *TODO* Add notes about lubrication of rods
-- Inspect wiring coming from the hotend. Ensure nothing is frayed or out of place. Adjust if necessary.
-- Verify both wiring bundles are firmly attached to the black electronics box at the rear of the printer.
+- [ ] Screws that tighten to plastic parts can often use a re-snugging.
+- [ ] Tighten the set screws on the geared pullies on the motors.
+- [ ] Ensure belts are properly tensioned. The largest part of belt stretching occurs under the first few weeks of being under tension, but it doesn't hurt to periodically check this.
+- [ ] **Bearings** Bearings are supposed to smoothly guide what they're carrying. The hotend and print bed should be moving smoothly.
+- [ ] Clean and lubricate the smooth rods. *TODO* Add notes about lubrication of rods
+- [ ] Inspect wiring coming from the hotend. Ensure nothing is frayed or out of place. Adjust if necessary.
+- [ ] Verify both wiring bundles are firmly attached to the black electronics box at the rear of the printer.
 
 ### As Needed
 **PEI Sheet**
