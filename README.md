@@ -119,7 +119,10 @@ Follow the [instructions from Prusa](http://manual.prusa3d.com/Guide/Replacing+t
 *TODO* Fill this out...
 
 ## VII. Useful GCode
-*TODO* Fill this out...
+### USING Pronterface (or something similar)
+- `G28 X Y` Home X and Y
+- `G28 W` Home Z
+- `M45 V20` Verbose XYZ Calibration
 
 ## VIII. Additional Resources
 http://www.prusa3d.com/material-guides/ (Tips for printing on the MK2 with various materials)
